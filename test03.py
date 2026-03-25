@@ -3,5 +3,6 @@ def sayHello(name):
     return 'Hello, ' + name + '!'
     
 inName = 'Tom'
-print(sayHello(inName))
+lastName = 'Brown'
+print(sayHello(inName + ' ' + lastName))
 print("메인 브랜치에서 수정")
